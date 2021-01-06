@@ -72,7 +72,7 @@ setWithActivityNames = merge(setForMeanAndStd, activityLabels, by='activityId', 
 
 ####### Fourth objective's solution is evident in the setAllInOne and setForMeanAndStd Data Frames #######
 
-#Fifth Objective
+#Fifth Objective#
 # Using the Aggregate Function to create the final set
 TidySet <- aggregate(. ~subjectId + activityId, setWithActivityNames, mean)
 TidySet <- TidySet[order(TidySet$subjectId, TidySet$activityId),]
