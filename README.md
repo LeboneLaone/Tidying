@@ -16,7 +16,7 @@ Analysis shows that you can categorize the data into 4 segments
 
 Inertial Signal data is not required. Additionally, features and activity label are more for tagging and descriptive than data sets.
 
-The assignment objectives are completed in 3 part R Scripts:
+The assignment objectives are completed in 3 part R Scripts contained in the midtermdata folder:
 1. 'mainsourcecode.R': Downloads the dataset then unzips it to the chosen local folder
 2. 'Preparations.R'  : Reads the text files and stores data in data frames. Also merges the tables (First Objective)
 3. 'MeanSTD.R'       : Tidies the data and answers Objectives 2-5
